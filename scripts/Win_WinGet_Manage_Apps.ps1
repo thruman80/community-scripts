@@ -59,7 +59,7 @@ if ($Mode -eq "search") {
 }
 
 if ($Mode -eq "install") {
-    .\winget.exe install $PackageName --accept-source-agreements --accept-package-agreements
+    .\winget.exe install $PackageName --accept-source-agreements --accept-package-agreements --silent
     Exit 0
 }
 
